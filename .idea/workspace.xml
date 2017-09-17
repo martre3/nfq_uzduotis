@@ -25,8 +25,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -344,8 +344,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\nfq\web\js" />
       <recent name="D:\xampp\htdocs\nfq\web\css" />
+      <recent name="D:\xampp\htdocs\nfq\web\js" />
       <recent name="D:\xampp\htdocs\nfq\web" />
       <recent name="D:\xampp\htdocs\nfq\web\bundles" />
     </key>
@@ -399,12 +399,12 @@
       <workItem from="1505391819314" duration="12603000" />
       <workItem from="1505463592976" duration="34130000" />
       <workItem from="1505547148995" duration="13064000" />
-      <workItem from="1505637974925" duration="13653000" />
+      <workItem from="1505637974925" duration="13701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88760000" />
+    <option name="totallyTimeSpent" value="88808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -735,7 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/main.css">
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="196" column="26" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
@@ -743,7 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/main.css">
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
@@ -796,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
