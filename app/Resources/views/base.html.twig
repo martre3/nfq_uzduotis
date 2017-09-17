@@ -2,16 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Užsakyti{% endblock %}</title>
+        <title>{% block title %}{% endblock %}</title>
         <link rel="icon" type="image/x-icon" href="{{ asset('PhoneIcon.png') }}" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-        {% stylesheets filter="scssphp" output="css/main.css"
-        "scss/main.scss"
-        %}
-        <link rel="stylesheet" href="/css/main.css" />
-        {% endstylesheets %}
-
+        <link rel="stylesheet" href={{ asset('js/a.css') }} />
         {% block javascripts %}{% endblock %}
     </head>
     <body>
