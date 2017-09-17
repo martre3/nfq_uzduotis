@@ -28,7 +28,7 @@ class ListController extends Controller
     public function showAction($page = 1, Request $request)
     {
         $ordersPerPage = 10;//kiek kiekvienam puslapyje bus užsakymų eilučių
-        $buttonCount = 4;//kiek nuodrodų į kitus puslapius matysime
+        $buttonCount = 5;//kiek nuodrodų į kitus puslapius matysime
         $formData = (object) [
             'pattern' => '',
             'sort' => 0
