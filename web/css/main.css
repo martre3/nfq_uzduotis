@@ -1,22 +1,209 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss
+body {
+  color: #595959; }
 
-Backtrace:
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:454:in `read'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/bin/scss:13:in `<top (required)>'
-C:/Ruby24-x64/bin/scss:23:in `load'
-C:/Ruby24-x64/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss"; }
+h1 {
+  font-family: "Arial", Times, SansSerif;
+  text-align: center;
+  border-bottom: solid 1px #b3b3b3;
+  margin-top: 5px; }
+
+h2 {
+  font-family: "Arial", Times, SansSerif;
+  text-align: center;
+  margin-bottom: 5px; }
+
+tbody {
+  width: 100%; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  color: #595959;
+  display: inline-block;
+  text-decoration: none; }
+
+a:visited {
+  color: #595959; }
+
+select {
+  color: #595959;
+  padding: 3px 5px 3px 5px; }
+
+select:focus {
+  outline: none; }
+
+input {
+  padding: 2px 5px 0 5px;
+  margin: 5px 0px 5px 0;
+  width: 180px;
+  height: 20px;
+  color: #999999;
+  font-size: medium;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border: 1px solid #b3b3b3; }
+
+input:hover {
+  border: 1px solid black; }
+
+input:focus {
+  color: #404040;
+  -webkit-box-shadow: inset 1px 1px 3px 1px #b3b3b3;
+  box-shadow: inset 1px 1px 3px 1px #b3b3b3;
+  outline: none; }
+
+th {
+  padding-bottom: 10px; }
+
+td {
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative; }
+
+.resultTable > tbody > tr > td {
+  border: solid 1px #b3b3b3;
+  padding: 5px 7px 5px 7px; }
+
+.resultTable > tbody > tr:not(:first-child):hover {
+  background: #e6e6e6; }
+
+.resultTable {
+  display: table;
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+  border-collapse: collapse; }
+
+.buttonsContainer {
+  text-align: center;
+  margin-top: 20px; }
+
+.menu {
+  text-align: center;
+  border-bottom: 1px solid #b3b3b3; }
+
+.menuBtn {
+  padding: 5px 10px 10px 10px;
+  font-size: medium;
+  font-weight: 600; }
+
+.menuBtn:hover {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #9a9a9a;
+  color: #404040; }
+
+.numberCell {
+  padding: 10px 6px 6px 6px;
+  margin: 5px 3px 0 0;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  border: 1px solid #b3b3b3;
+  vertical-align: top; }
+
+.numberCell:hover {
+  padding: 6px 6px 10px 6px; }
+
+.activeCell {
+  border: 1px solid gray;
+  background: #d9d9d9; }
+
+.error {
+  color: #ff6666;
+  font-size: small;
+  text-align: center; }
+
+.dotContainer {
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  bottom: 20px; }
+
+.submitBtn {
+  border-top: 1px solid #b3b3b3;
+  padding-top: 8px; }
+
+button {
+  padding: 2px 7px 2px 7px;
+  color: #595959;
+  background: white;
+  border: 1px solid #b3b3b3;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+button:hover {
+  border: 1px solid black;
+  color: black;
+  background: #cdcdcd; }
+
+.container {
+  width: 80%;
+  display: table;
+  margin: auto;
+  margin-top: 50px; }
+
+.searchTable {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 50px; }
+
+.formContainer {
+  display: table;
+  margin: auto;
+  width: 35%;
+  text-align: right;
+  font-size: larger;
+  border-top: 1px solid #b3b3b3; }
+
+.slide {
+  display: none;
+  -webkit-animation: nextSlide 0.5s linear;
+  animation: nextSlide 0.5s linear;
+  padding: 0 0 20px 0; }
+
+.slide > li {
+  margin-top: 2px; }
+
+.info {
+  font-size: 18px;
+  border-left: 1px solid #b3b3b3;
+  height: 200px;
+  width: 60vw;
+  padding-left: 20px;
+  padding-bottom: 0; }
+
+.dot {
+  background: white;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border: solid 1px #b3b3b3;
+  border-radius: 50px;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+
+.dot.active {
+  background: #b3b3b3; }
+
+@-webkit-keyframes nextSlide {
+  from {
+    opacity: .4;
+    padding: 20px 0 0 0; }
+  to {
+    opacity: 1;
+    padding: 0 0 20px 0; } }
+@keyframes nextSlide {
+  from {
+    opacity: .4;
+    padding: 20px 0 0 0; }
+  to {
+    opacity: 1;
+    padding: 0 0 20px 0; } }
+
+/*# sourceMappingURL=main.css.map */

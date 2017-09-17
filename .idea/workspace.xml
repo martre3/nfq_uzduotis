@@ -33,10 +33,10 @@
         </entry>
       </file>
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/main.scss">
+        <entry file="file://$PROJECT_DIR$/web/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="442">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -145,9 +145,9 @@
         <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/web/main.css" />
         <option value="$PROJECT_DIR$/web/js/a.css" />
-        <option value="$PROJECT_DIR$/web/css/main.scss" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/main.scss" />
+        <option value="$PROJECT_DIR$/web/css/main.scss" />
       </list>
     </option>
   </component>
@@ -345,8 +345,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\nfq\web" />
       <recent name="D:\xampp\htdocs\nfq\web\css" />
+      <recent name="D:\xampp\htdocs\nfq\web" />
       <recent name="D:\xampp\htdocs\nfq\web\js" />
       <recent name="D:\xampp\htdocs\nfq\web\bundles" />
     </key>
@@ -400,12 +400,12 @@
       <workItem from="1505391819314" duration="12603000" />
       <workItem from="1505463592976" duration="34130000" />
       <workItem from="1505547148995" duration="13064000" />
-      <workItem from="1505637974925" duration="14169000" />
+      <workItem from="1505637974925" duration="14349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89276000" />
+    <option name="totallyTimeSpent" value="89456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -768,17 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/completed.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -795,10 +784,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/main.scss">
+    <entry file="file://$PROJECT_DIR$/web/css/main.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
