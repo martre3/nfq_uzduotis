@@ -43,7 +43,7 @@ doctrine:
         driver: pdo_mysql
         host: '%database_host%'
         port: '%database_port%'
-        dbname: 'Shop'
+        dbname: 'heroku_c9eda3b73d83ba8'
         user: '%database_user%'
         password: '%database_password%'
         charset: UTF8
