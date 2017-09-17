@@ -1,0 +1,43 @@
+{% extends 'info.html.twig' %}
+
+{% block order %}
+        <tr><td colspan="2"><h2>Užsakymo forma</h2></td></tr>
+        <tr>
+            <td colspan="2">
+                <table class="formContainer">
+                    {{ form_start(form) }}
+                    <tr>
+                        <td colspan="2">
+                            <ul>
+                                {% for error in errors %}
+                                    <li class="error">{{ error.message }}</li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                {{ form_label(form.name) }}
+                        </td>
+                        <td>
+                             {{ form_widget(form.name) }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> {{ form_label(form.lastName) }} </td>
+                        <td> {{ form_widget(form.lastName) }}</td>
+                    </tr>
+                    <tr>
+                        <td> {{ form_label(form.address) }} </td>
+                        <td> {{ form_widget(form.address) }}</td>
+                    </tr>
+                    <tr>
+                        <td> {{ form_label(form.phone) }} </td>
+                        <td> {{ form_widget(form.phone) }}</td>
+                    </tr>
+                    <tr style="text-align: center"><td colspan="2" class="submitBtn">{{ form_widget(form.save) }} </td></tr>
+                    {{ form_end(form) }}
+                </table>
+            </td>
+        </tr>
+{% endblock %}

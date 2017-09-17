@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+{% block javascripts %}
+    <script src="{{ asset('js/main.js') }}"></script>
+{% endblock %}
+{% block body %}
+    <div>
+        <table class="container">
+            <tr><td colspan="2"><h1>Telefonas</h1></td></tr>
+            <tr>
+                <td><img src="PhoneIcon.png" height="128px" width="128px"></td>
+                <td class="info">
+                    <ul class="slide">
+                        <li>5.8 colių ekranas.</li>
+                        <li>Raiška - 2960x1440.</li>
+                        <li>16 mln. spalvų.</li>
+                        <li>Atsparus įbrėžimams ekranas.</li>
+                    </ul>
+                    <ul class="slide">
+                        <li>Aštuonių branduolių (4x2.3 GHz & 4x1.7 GHz) procesorius.</li>
+                        <li>4 GB operatyviosios atminties.</li>
+                        <li>64 GB vidinės atminties.</li>
+                        <li>Palaiko iki 256 GB atminties kortelę.</li>
+                    </ul>
+                    <ul class="slide">
+                        <li>12 MP pagrindinė kamera.</li>
+                        <li>Vaizdo įrašymas - 2160p@30fps, 1080p@60fps.</li>
+                        <li>8 MP Priekinė kamera, 1440p@30fps.</li>
+                    </ul>
+                    <div class="dotContainer">
+                        <div class="dot" onclick="JumpToSlide(0)"></div>
+                        <div class="dot" onclick="JumpToSlide(1)"></div>
+                        <div class="dot" onclick="JumpToSlide(2)"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr><td colspan="2"><h1> </h1></td></tr>
+            {% block order %} {% endblock %}
+        </table>
+    </div>
+{% endblock %}

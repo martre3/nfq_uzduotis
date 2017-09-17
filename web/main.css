@@ -1,0 +1,43 @@
+h1
+{
+    text-align: center;
+    border-bottom: solid 1px gray;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin:auto;
+}
+.slide{
+    display: none;
+    animation: nextSlide 0.5s linear;
+    padding: 0 0 20px 0;
+}
+
+.info{
+    border-left: 1px solid gray;
+    height: 200px;
+    width: 60vw;
+    padding-left: 20px;
+}
+.dot{
+    background: white;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border: solid 1px gray;
+    border-radius: 50px;
+    transition: all 1s ease;
+}
+ul{
+    list-style-type: none;
+}
+.dot.active{
+    background: gray;
+}
+@keyframes nextSlide {
+    from {opacity: .4;
+          padding: 20px 0 0 0}
+    to {opacity: 1;
+        padding: 0 0 20px 0}
+}

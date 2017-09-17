@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <table class="searchTable">
+        <tr>
+            {{ form_start(form) }}
+            <td> {{ form_label(form.searchPattern) }} {{  form_widget(form.searchPattern) }} </td>
+            <td> {{ form_label(form.sort) }} {{ form_widget(form.sort) }}</td>
+            <td> {{ form_widget(form.save) }}</td>
+            {{ form_end(form) }}
+        </tr>
+    </table>
+
+    <table class="resultTable">
+        <tr>
+            <th width="20%">Vardas</th>
+            <th width="25%">Pavarde</th>
+            <th width="35%">Adresas</th>
+            <th width="20%">Telefono numeris</th>
+        </tr>
+        {% if orders|length == 0 %}
+            <tr><td colspan="4" style="text-align: center">Rezultatų nėra</td></tr>
+        {% else %}
+        {% for order in orders %}
+            <tr><td>{{order.getName()}}</td>
+                <td>{{order.getLastName()}}</td>
+                <td>{{order.getAddress()}}</td>
+                <td>{{order.getPhone()}}</td>
+            </tr>
+        {% endfor %}
+        {% endif %}
+    </table>
+    <div class="buttonsContainer">
+        {% for number in range(first, last) %}
+            <a class="numberCell {%  if number == current %} activeCell {% endif %}"  href="/list/{{number}}">{{number}}</a>
+        {% endfor %}
+    </div>
+
+{% endblock %}
